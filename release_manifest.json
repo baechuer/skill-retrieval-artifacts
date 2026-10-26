@@ -18,12 +18,12 @@
     "CITATION.cff": {
       "bytes": 503,
       "lfs": false,
-      "sha256": "cf3fd597f1e23e62ed4eda65f571bcf64cbb04f814a603a89b308e4c77e0b0c5"
+      "sha256": "cc274d5a98c58154d449c75885a98a3cfa030d8d77d1ec1b8afe2c4bcc5ffca8"
     },
     "README.md": {
-      "bytes": 3916,
+      "bytes": 4059,
       "lfs": false,
-      "sha256": "a6bf7e566fc359361bac81ff951d420883bbb687f076ccfb558c5095484ab8e0"
+      "sha256": "d3dcb5c7363e731701e7bc4ad7dc600dab6046ae1469ea142e553a9f91afff95"
     },
     "benchmark/acceptable_sets.jsonl.gz": {
       "bytes": 784716,
@@ -41,9 +41,9 @@
       "sha256": "14a544f3c08d594b3ad4ab4348e06c45eed33915752de55cefc11e5173a534ce"
     },
     "docs/DATA_AND_LIMITS.md": {
-      "bytes": 1909,
+      "bytes": 1907,
       "lfs": false,
-      "sha256": "6e4952bb82f6bd6347d3cbc8baf692712092f491341060a2bf2357f36bc7b29d"
+      "sha256": "8babb8d117822a777f29dcf27da330e9e1927ecaba738504d124c651e38ee533"
     },
     "docs/WALKTHROUGH.md": {
       "bytes": 2571,
@@ -161,9 +161,9 @@
       "sha256": "631eee75cd170908bb1f73d2c2fe63f3838b1deba6de7810cc12e29686ba7792"
     },
     "provenance/release_scope.json": {
-      "bytes": 783,
+      "bytes": 1004,
       "lfs": false,
-      "sha256": "cad2dfc488480dc746f6ed18827c8784d3d6deb756d705c29a467204a4052159"
+      "sha256": "809b0e0f0268972c988643d8776a2eca64f51db763d2fe8069f66c2eee81ca25"
     },
     "provenance/smaller_library_analysis_receipt.json": {
       "bytes": 3429,
@@ -176,9 +176,9 @@
       "sha256": "06017f9f2265e7f5bc8a10d52250ba6e31d29f625d35c02fcdad4ed4fd7c5d0b"
     },
     "provenance/validation_report.json": {
-      "bytes": 2913,
+      "bytes": 3145,
       "lfs": false,
-      "sha256": "130e56b880a77cf537d2c037e5ea6225478de7e611fbc70291bdf5bc94e324a9"
+      "sha256": "65f163d9b09f8a433b6d1fe5f4aca1543756bd8022fc85372ebb8faeb108ad46"
     },
     "rankings/larger_library/B01-G0.jsonl.gz": {
       "bytes": 1115470,

@@ -20,5 +20,8 @@
   "queries": 1077,
   "smaller_library": "Aggregate matrix inspection only; original exact-analysis prerequisites are incomplete.",
   "sources": "Third-party full documents are not redistributed in this review release. Source hashes identify them.",
-  "version": "1.0.0"
+  "version": "1.0.1",
+  "access": "public",
+  "change_scope": "Access documentation only; scientific payload and vectors unchanged from v1.0.0",
+  "upstream_licence_clearance": "Not certified; public access does not alter third-party rights"
 }

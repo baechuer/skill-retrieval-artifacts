@@ -1,13 +1,18 @@
 {
   "status": "PASS_GITHUB_CLONE_AND_LFS_REPLAY",
   "date": "2026-10-26",
-  "release_version": "1.0.0",
+  "release_version": "1.0.1",
+  "public_access": {
+    "verified": true,
+    "anonymous_github_api": "PASS; private=false, visibility=public",
+    "upstream_licence_clearance": "Not certified; publication at the author's explicit direction is not a third-party rights waiver"
+  },
   "remote_deposit_verified": true,
   "remote_verification": {
     "repository": "https://github.com/baechuer/skill-retrieval-artifacts",
-    "visibility": "Private",
-    "tested_data_commit": "83795015b068f2493e1304e6501a19ccc74909fc",
-    "tested_manifest_sha256": "26cffadea651ae09878f0b1a111a45e89bd06ab8485bcf6b808b9493ff0a12a7",
+    "visibility": "Public",
+    "tested_data_commit": "c452d2a70f1a4ac00f056cea3ef58f0005e38674",
+    "tested_manifest_sha256": "d8aa14df635ae173da75a365e58fb9b1fb6e71a8e871563a6bc9178351b6a5d9",
     "fresh_github_clone": "PASS",
     "pointer_only_inventory": "PASS; explicitly reports 17 vectors not yet downloaded",
     "full_lfs_download": "PASS; all 17 objects downloaded and SHA-256 verified",
@@ -15,7 +20,7 @@
     "larger_library_score_replay": "PASS; 42 conditions, 45234 rows",
     "unit_tests": "PASS; 6 tests",
     "vector_spot_checks": "Qwen and SkillRouter each match the frozen Top-20 and order for one cached Profile query",
-    "follow_up_scope": "Release finalization changes only README, access wording, citation URL, this validation record and their hash manifest; scientific payload is unchanged."
+    "follow_up_scope": "Version 1.0.1 changes only release/access documentation, provenance metadata and their hash manifest; scientific payload is unchanged."
   },
   "checks": {
     "sha256_inventory": "PASS",

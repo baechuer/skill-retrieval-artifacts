@@ -1,6 +1,6 @@
 # Skill Retrieval: Results and Reproducibility Artifacts
 
-Review release 1.0.0 for Jacky Zhang's University of Sydney Honours thesis,
+Public artifact release 1.0.1 for Jacky Zhang's University of Sydney Honours thesis,
 *Skill Representation for Scalable Agent Skill Retrieval under Semantic Confusability*.
 
 Repository: https://github.com/baechuer/skill-retrieval-artifacts
@@ -8,12 +8,13 @@ Repository: https://github.com/baechuer/skill-retrieval-artifacts
 This is the reader-facing release, not the research working tree. It contains
 frozen results, approved scoring labels, portable offline checks, and optional
 Git LFS embeddings. No script here calls a paid model or changes benchmark labels.
-The repository is private for review; citation does not imply public access.
+The repository is public. Version 1.0.1 updates access documentation only;
+the scientific data and vectors are unchanged from version 1.0.0.
 
 ## Quick start: no API keys or GPU
 
 ```sh
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/baechuer/skill-retrieval-artifacts.git
+GIT_LFS_SKIP_SMUDGE=1 git clone --branch v1.0.1 https://github.com/baechuer/skill-retrieval-artifacts.git
 cd skill-retrieval-artifacts
 python3 scripts/verify.py
 python3 scripts/replay.py
@@ -21,7 +22,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Open http://127.0.0.1:8000/demo/ to compare the two library matrices.
-For a private repository, GitHub access is required to clone; API model credentials are not.
+No GitHub account or API model credentials are required for the public clone.
 The default clone skips large vector objects. Verification still checks their pointer
 identity against the manifest and states explicitly that their bytes were not downloaded.
 
@@ -69,8 +70,9 @@ by `release_manifest.json`; original source bindings are in `provenance/source_b
 ## Citation
 
 Jacky Zhang (2026). *Skill Representation for Scalable Agent Skill Retrieval under Semantic
-Confusability: Reproducibility Artifacts*. Version 1.0.0.
-https://github.com/baechuer/skill-retrieval-artifacts
+Confusability: Reproducibility Artifacts*. Version 1.0.1.
+https://github.com/baechuer/skill-retrieval-artifacts/tree/v1.0.1
 
-No new blanket licence is assigned to third-party data. This private review release does
-not include third-party full documents; public redistribution requires a separate licence review.
+No new blanket licence is assigned to third-party data. Third-party full documents
+and model weights are not included. Public access does not certify unrestricted
+reuse rights; applicable upstream terms and third-party rights remain unchanged.

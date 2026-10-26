@@ -4,8 +4,8 @@ title: "Skill Representation for Scalable Agent Skill Retrieval under Semantic C
 authors:
   - family-names: Zhang
     given-names: Jacky
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-26
-url: "https://github.com/baechuer/skill-retrieval-artifacts/tree/v1.0.0"
+url: "https://github.com/baechuer/skill-retrieval-artifacts/tree/v1.0.1"
 repository-code: "https://github.com/baechuer/skill-retrieval-artifacts"
 type: software

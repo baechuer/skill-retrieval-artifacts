@@ -21,5 +21,5 @@
 - Real `.env` files, tokens, credentials, invoices, private chat logs, personal billing
   observations, cloud-job envelopes, model downloads and scratch snapshots are excluded.
   `.env.example` contains blank optional variables; offline commands do not read it.
-- The repository is private during review. A repository citation is not a claim that
-  the materials are already publicly accessible or archived under a DOI.
+- The repository is public. Public access is not a blanket licence grant or a
+  certification of upstream rights. This GitHub release is not a DOI archive.
