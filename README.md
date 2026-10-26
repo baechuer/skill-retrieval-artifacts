@@ -5,13 +5,10 @@ Review release 1.0.0 for Jacky Zhang's University of Sydney Honours thesis,
 
 Repository: https://github.com/baechuer/skill-retrieval-artifacts
 
-Deposit status: prepared locally. Repository creation and upload are pending;
-the intended GitHub address above is not yet a verified deposit.
-
 This is the reader-facing release, not the research working tree. It contains
 frozen results, approved scoring labels, portable offline checks, and optional
 Git LFS embeddings. No script here calls a paid model or changes benchmark labels.
-The repository is intended to be private for review; citation does not imply public access.
+The repository is private for review; citation does not imply public access.
 
 ## Quick start: no API keys or GPU
 

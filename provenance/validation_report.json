@@ -1,8 +1,22 @@
 {
-  "status": "PASS_LOCAL_PREFLIGHT_REMOTE_PENDING",
+  "status": "PASS_GITHUB_CLONE_AND_LFS_REPLAY",
   "date": "2026-10-26",
   "release_version": "1.0.0",
-  "remote_deposit_verified": false,
+  "remote_deposit_verified": true,
+  "remote_verification": {
+    "repository": "https://github.com/baechuer/skill-retrieval-artifacts",
+    "visibility": "Private",
+    "tested_data_commit": "83795015b068f2493e1304e6501a19ccc74909fc",
+    "tested_manifest_sha256": "26cffadea651ae09878f0b1a111a45e89bd06ab8485bcf6b808b9493ff0a12a7",
+    "fresh_github_clone": "PASS",
+    "pointer_only_inventory": "PASS; explicitly reports 17 vectors not yet downloaded",
+    "full_lfs_download": "PASS; all 17 objects downloaded and SHA-256 verified",
+    "lfs_fsck": "PASS",
+    "larger_library_score_replay": "PASS; 42 conditions, 45234 rows",
+    "unit_tests": "PASS; 6 tests",
+    "vector_spot_checks": "Qwen and SkillRouter each match the frozen Top-20 and order for one cached Profile query",
+    "follow_up_scope": "Release finalization changes only README, access wording, citation URL, this validation record and their hash manifest; scientific payload is unchanged."
+  },
   "checks": {
     "sha256_inventory": "PASS",
     "larger_library_score_replay": {

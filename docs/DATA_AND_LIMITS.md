@@ -21,5 +21,5 @@
 - Real `.env` files, tokens, credentials, invoices, private chat logs, personal billing
   observations, cloud-job envelopes, model downloads and scratch snapshots are excluded.
   `.env.example` contains blank optional variables; offline commands do not read it.
-- The intended repository will be private during review. A repository citation is not a claim that
+- The repository is private during review. A repository citation is not a claim that
   the materials are already publicly accessible or archived under a DOI.

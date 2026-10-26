@@ -6,6 +6,6 @@ authors:
     given-names: Jacky
 version: 1.0.0
 date-released: 2026-10-26
-url: "https://github.com/baechuer/skill-retrieval-artifacts"
+url: "https://github.com/baechuer/skill-retrieval-artifacts/tree/v1.0.0"
 repository-code: "https://github.com/baechuer/skill-retrieval-artifacts"
 type: software
