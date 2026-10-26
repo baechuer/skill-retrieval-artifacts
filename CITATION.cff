@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this research artifact release when using the retained results or offline replay."
+title: "Skill Representation for Scalable Agent Skill Retrieval under Semantic Confusability: Reproducibility Artifacts"
+authors:
+  - family-names: Zhang
+    given-names: Jacky
+version: 1.0.0
+date-released: 2026-10-26
+url: "https://github.com/baechuer/skill-retrieval-artifacts"
+repository-code: "https://github.com/baechuer/skill-retrieval-artifacts"
+type: software

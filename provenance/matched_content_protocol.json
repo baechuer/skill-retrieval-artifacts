@@ -1,0 +1,62 @@
+{
+  "candidate_count_per_cluster": 3,
+  "field_labels": {
+    "boundary_not_for": "Boundary / Not For",
+    "dependency_resource": "Dependency / Resource",
+    "input_precondition": "Input / Precondition",
+    "output_artifact": "Output Artifact",
+    "success_verification": "Success / Verification",
+    "use_condition": "Use Condition",
+    "workflow_procedure": "Workflow / Procedure"
+  },
+  "field_order": [
+    "use_condition",
+    "input_precondition",
+    "output_artifact",
+    "workflow_procedure",
+    "dependency_resource",
+    "boundary_not_for",
+    "success_verification"
+  ],
+  "padding_blocks": {
+    "P1": "Carry out the assigned work carefully and consistently.",
+    "P2": "Keep an orderly account of progress during completion.",
+    "P3": "Check the finished material before delivery.",
+    "P4": "State any remaining caveats clearly for the recipient."
+  },
+  "padding_by_representation": {
+    "same-facts-diluted-1x": [
+      "P1"
+    ],
+    "same-facts-diluted-2x": [
+      "P1",
+      "P2"
+    ],
+    "same-facts-diluted-4x": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  "protocol_version": "rq2a-matched-content-v1.0",
+  "representations": [
+    "shared-only",
+    "same-facts-fielded",
+    "same-facts-flat",
+    "same-facts-prose",
+    "same-facts-order-controlled",
+    "same-facts-diluted-1x",
+    "same-facts-diluted-2x",
+    "same-facts-diluted-4x"
+  ],
+  "schema_version": "rq2a-protocol-v1",
+  "scope": "rq2a_only",
+  "serialiser_version": "rq2a-serialiser-v1.4",
+  "source_cluster_count": 350,
+  "source_prompt_count": 750,
+  "source_root": "rq1a_field_discriminability",
+  "split_seed": "rq2a-v1-2026-07-26",
+  "status": "authorised_frozen_for_implementation",
+  "thesis_write_blocked_pending_user_review": true
+}

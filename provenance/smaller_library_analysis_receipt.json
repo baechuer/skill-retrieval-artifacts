@@ -1,0 +1,64 @@
+{
+  "schema_version": "rq2b-v7-complete-case-analysis-receipt-v1",
+  "status": "PASS_EXACT_RQ2B_V7_COMPLETE_CASE_ANALYSIS_REPLAY",
+  "scope": {
+    "frozen_queries": 1077,
+    "outcome_conditions": 42,
+    "expected_rows_before_amendment": 45234,
+    "observed_complete_case_rows": 45203,
+    "approved_excluded_qwen_cells": 31,
+    "full_42_by_1077_matrix_claim_allowed": false
+  },
+  "artifacts": {
+    "analysis_json": {
+      "path": "skill_benchmark/rq2b_naturalistic_confusability/outputs/v7_phase8_complete_case_analysis_2026_09_12_v1/offline_analysis.json",
+      "sha256": "c3e4f8337fe0348b2d4c86f0c42b5361897ba4d2688143016ec2e1624d302a1f"
+    },
+    "results_markdown": {
+      "path": "skill_benchmark/rq2b_naturalistic_confusability/outputs/v7_phase8_complete_case_analysis_2026_09_12_v1/RESULTS.md",
+      "sha256": "18ef3c47ea7a1279b629fb18a8bae508a8a068bc0df40427e2d0238eec44151b"
+    },
+    "b2_complete_case_receipt": {
+      "path": "skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_b2_complete_case_merge_2026_09_12_v1/merge_receipt.json",
+      "sha256": "9af82a2cd3243f876bfd54f143574b05cbd6ea2012b7bad88152beee8779e97a"
+    }
+  },
+  "implementation": {
+    "label_free_merge_validator": {
+      "path": "skill_benchmark/scripts/validate_merge_rq2b_v7_b2_complete_case_v1.py",
+      "sha256": "adf67f662946b95150802f04c6c4248cff746fd53b12346f3d86a4186e7ec374"
+    },
+    "complete_case_scorer": {
+      "path": "skill_benchmark/scripts/score_rq2b_v7_complete_case_freeze_v1.py",
+      "sha256": "f412a7aa74f2b639f009aea89a5c786be3fece4766e22736e3429e3840fa6fac"
+    },
+    "exact_replay_validator": {
+      "path": "skill_benchmark/scripts/verify_rq2b_v7_complete_case_analysis_v1.py",
+      "sha256": "3565613d04827794c9bce6bc52973258373338ef008faaf5f9112575cc63dfd6"
+    }
+  },
+  "statistical_contract": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026090801,
+    "paired_sign_flip_replicates": 100000,
+    "paired_sign_flip_seed": 2026090802,
+    "primary_per_comparison_alpha": 0.01,
+    "noninferiority_margin": -0.03,
+    "resampling_unit": "whole dependency_group"
+  },
+  "primary_decisions": {
+    "P1": "POSITIVE_PASSES_ALPHA",
+    "P2": "NONINFERIORITY_NOT_ESTABLISHED",
+    "P3": "NO_PRESPECIFIED_SIGNIFICANT_DIFFERENCE",
+    "P4": "POSITIVE_PASSES_ALPHA_AND_MISSING_OUTCOME_BOUNDS_REMAIN_POSITIVE",
+    "P5": "NO_PRESPECIFIED_SIGNIFICANT_DIFFERENCE"
+  },
+  "exact_replay_command": ".venv-rq2b-v7/bin/python -B skill_benchmark/scripts/verify_rq2b_v7_complete_case_analysis_v1.py --b1-official-receipt skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_b1_official_validation_2026_09_10_v1/b1_validation_receipt.json --b2-complete-case-receipt skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_b2_complete_case_merge_2026_09_12_v1/merge_receipt.json --amendment skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_qwen_split_complete_case_amendment_2026_09_12_v1/method_amendment.json --report skill_benchmark/rq2b_naturalistic_confusability/outputs/v7_phase8_complete_case_analysis_2026_09_12_v1/offline_analysis.json",
+  "execution_boundary": {
+    "provider_calls_during_merge_and_scoring": 0,
+    "model_forwards_during_merge_and_scoring": 0,
+    "labels_opened_only_after_label_free_gates_passed": true,
+    "excluded_cells_imputed": false,
+    "original_full_matrix_scorer_overwritten": false
+  }
+}

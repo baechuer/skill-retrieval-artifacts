@@ -1,0 +1,115 @@
+{
+  "export_precision": "float64 preserves stored JSON numbers",
+  "included": true,
+  "models": {
+    "qwen": {
+      "details": {
+        "dimensions": 1024,
+        "model": "text-embedding-v4"
+      },
+      "rows": 43703,
+      "shards": [
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-000.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-001.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-002.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-003.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-004.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-005.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-006.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-007.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/qwen/vectors-008.npz",
+          "rows": 3703
+        }
+      ]
+    },
+    "skillrouter": {
+      "details": {
+        "dimensions": 1024,
+        "model": "pipizhao/SkillRouter-Embedding-0.6B",
+        "model_weights_sha256": "cbab45b8a3c786b8c23aedb24fb22aff74d0e9b62a52369a3090c37f26b00360",
+        "normalization": "l2",
+        "pooling": "last_non_padding_token",
+        "revision": "c03c9bcee9fce92ab0262bb6dcf54d174a8ba558",
+        "runtime_dtype": "bfloat16",
+        "tokenizer_sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a"
+      },
+      "rows": 40000,
+      "shards": [
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-000.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-001.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-002.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-003.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-004.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-005.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-006.npz",
+          "rows": 5000
+        },
+        {
+          "dimensions": 1024,
+          "path": "embeddings/skillrouter/vectors-007.npz",
+          "rows": 5000
+        }
+      ]
+    }
+  }
+}

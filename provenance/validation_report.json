@@ -1,0 +1,45 @@
+{
+  "status": "PASS_LOCAL_PREFLIGHT_REMOTE_PENDING",
+  "date": "2026-10-26",
+  "release_version": "1.0.0",
+  "remote_deposit_verified": false,
+  "checks": {
+    "sha256_inventory": "PASS",
+    "larger_library_score_replay": {
+      "status": "PASS",
+      "conditions": 42,
+      "scored_rows": 45234,
+      "primary_requests_per_condition": 714,
+      "provider_calls": 0,
+      "bootstrap_intervals": "Retained, not re-estimated"
+    },
+    "unit_tests": {
+      "passed": 6,
+      "covers": ["Scoring with multiple acceptable answers", "Invalid ranking rejection", "Git LFS pointer identity", "Real .env filename rejection"]
+    },
+    "secret_scan": {
+      "status": "PASS",
+      "findings": 0,
+      "local_credential_literal_comparison": true,
+      "patterns": ["GitHub tokens", "HF and API tokens", "AWS access IDs", "Private keys", "Credentials in URLs", "Sensitive assignments"],
+      "limit": "Allowlisting and pattern/literal checks reduce disclosure risk; they do not prove absence of every possible sensitive value."
+    },
+    "vector_structure": {
+      "status": "PASS",
+      "shards": 17,
+      "qwen_vectors": 43703,
+      "skillrouter_vectors": 40000,
+      "contents": "Finite float64 matrices and SHA-256 text IDs only"
+    },
+    "vector_retrieval_spot_checks": {
+      "scope": "One cached Profile query per provider, not an all-query retrieval replay",
+      "qwen_top20_overlap": 20,
+      "qwen_exact_order_match": true,
+      "skillrouter_top20_overlap": 20,
+      "skillrouter_exact_order_match": true
+    },
+    "demo": "84 condition rows loaded; library and representation filters checked"
+  },
+  "excluded": ["Real .env files and credentials", "Billing and account records", "Raw cloud-job envelopes", "Model weights", "Third-party full skill documents", "Caches, scratch files and historical snapshots"],
+  "scope_limit": "Larger-library score replay; smaller-library aggregate inspection. No fresh model run, billing replay or bootstrap rerun."
+}

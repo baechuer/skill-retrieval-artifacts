@@ -1,0 +1,328 @@
+[
+  {
+    "release_transform": "LF line endings and trailing-space normalization; no CSV cell values changed",
+    "role": "Frozen smaller-library aggregate matrix",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/outputs/v7_phase8_complete_case_analysis_2026_09_12_v1/full_matrix.csv",
+    "source_sha256": "c62f8a6dfcfec93e7965ad700683a4bc4a44cbcf382a8ca1ed6b14cf29823ead"
+  },
+  {
+    "role": "Historical binding, not a standalone replay command",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/outputs/v7_phase8_complete_case_analysis_2026_09_12_v1/analysis_receipt.json",
+    "source_sha256": "a183086fde5a963d977c8c5870df5bdc1660adcc9f39db6256b6d15874635669"
+  },
+  {
+    "role": "Canonical larger-library metrics",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/analysis/final_acceptable_metrics_2026_09_17_v2/report.json",
+    "source_sha256": "1cdfb0a9dff7d0f75a595c6a99eebe5f06b2f57da88ce3e5c8eb268416be9365"
+  },
+  {
+    "role": "Canonical per-query larger-library scored rows",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/analysis/final_acceptable_metrics_2026_09_17_v2/scored_rows.jsonl.gz",
+    "source_sha256": "1dbc5b9e02215f4df2b1756596d89a8cc57805aa44bd37aabea82f0718ab5c75"
+  },
+  {
+    "role": "Frozen matched-content confirmatory analysis",
+    "source_path": "skill_benchmark/outputs/rq2a_matched_content/analysis/confirmatory-complete-v1/analysis.json",
+    "source_sha256": "189d6b20b091e2f2d3bd30f168355ccf2a73efa3eef3b082075725040fec0ce7"
+  },
+  {
+    "role": "Historical input freeze; status fields describe its creation time",
+    "source_path": "skill_benchmark/rq2a_matched_content/protocol.json",
+    "source_sha256": "631eee75cd170908bb1f73d2c2fe63f3838b1deba6de7810cc12e29686ba7792"
+  },
+  {
+    "release_transform": "LF line endings and trailing-space normalization",
+    "role": "RQ1 canonical result and claim map",
+    "source_path": "thesis_notes/current/Results Writing Packet - 2026-09-04.md",
+    "source_sha256": "bcac29adc884d238ab5550f2b8c6720e233a26dea038ce3d63b3387e678f89d8"
+  },
+  {
+    "role": "Supporting aggregate prevalence evidence only",
+    "source_path": "skill_benchmark/outputs/rq1_v3_full_document_binary_review_summary_2026-09-04.md",
+    "source_sha256": "5dd8dc5151f67f0e9cda6805a306e71ed1cf33a6b9de1d6c4333487488128b93"
+  },
+  {
+    "role": "Source scoring implementation used for export",
+    "source_path": "skill_benchmark/scripts/analyse_rq2_scale10k_final_acceptable_metrics_v1.py",
+    "source_sha256": "61852fcad8f200941455143982ab2bd01806bfffa690c12c1ed5625e9365518f"
+  },
+  {
+    "git_commit": "3f1a463e",
+    "role": "Frozen label authority",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_analysis_freeze_2026_09_08_v1/offline_label_adapter.jsonl",
+    "source_sha256": "cb11848e4a6d7938870e8bf5913335050538ac4f3c589ec9fe69bb303711357d"
+  },
+  {
+    "git_commit": "3f1a463e",
+    "role": "Frozen label authority",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_analysis_freeze_2026_09_08_v1/dependency_ledger.jsonl",
+    "source_sha256": "4226cfe2c9943d40026a4f1a9a38dbbc379ae9b8f39bd9b4c40aea8009e97fc7"
+  },
+  {
+    "git_commit": "3f1a463e",
+    "role": "Frozen label authority",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_quality_closure_2026_09_09_v1/cue_sensitivity_ledger.jsonl",
+    "source_sha256": "87eba0de1f8c15384df862b4652442f9b2410d216bbd2f17ca85d094df7e204f"
+  },
+  {
+    "git_commit": "3f1a463e",
+    "role": "Frozen label authority",
+    "source_path": "skill_benchmark/rq2b_naturalistic_confusability/preparation/v7_phase8_quality_relation_disposition_2026_09_09_v1/source_equivalence_edges.jsonl",
+    "source_sha256": "c29e5868a39c943e3821a2408a6e8d6f2d3ef6cd2a73cb227fa05325e61ccb4f"
+  },
+  {
+    "role": "Frozen judged scope",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/acceptable_set_audit_v1/stage1_added_top1_pair_manifest.jsonl",
+    "source_sha256": "42f274ce2a4dfa03de827c2dcd35825513edec1d71de75a34abb6d2cf6749cfb"
+  },
+  {
+    "role": "Frozen judged scope",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/acceptable_set_audit_v1/stage2_metric_relevant_audit_v2/stage2_metric_relevant_pair_manifest.jsonl",
+    "source_sha256": "b94a3438d8699e2dd86d3682f47a9b8a044d420b3690ef6b0e638dc8e25e47e0"
+  },
+  {
+    "role": "Approved 1,051-pair added-source acceptable overlay",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/acceptable_set_audit_v1/final_acceptable_overlay_freeze_v1/overlay.jsonl",
+    "source_sha256": "e4aa8e72f11c50414ea11d9e00886872243d644ae7b5169e9e5a74fd253a3246"
+  },
+  {
+    "role": "Frozen numerical matrix assembly",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/integrity_report.json",
+    "source_sha256": "a47021416a139ddb0870ebaebc6a661fccd55cbfd1902e51ca1565a9d429be23"
+  },
+  {
+    "role": "Frozen ranking B01-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B01_top20.jsonl",
+    "source_sha256": "94525e6abb5d3ef30679b07aab63ffb1bbed1c1ad26e2de94b7c2351632dba24"
+  },
+  {
+    "role": "Frozen ranking B01-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B01-GQ.jsonl.gz",
+    "source_sha256": "d0d8871a912141c3425260ec9013f52939e321fd22dcd9d585fc26a8a4a966f9"
+  },
+  {
+    "role": "Frozen ranking B01-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B01-GS.jsonl.gz",
+    "source_sha256": "8f5e0256e69ef0e2bb90da83ccfbe8cab7057879bd3b5424e2e60979867f94ad"
+  },
+  {
+    "role": "Frozen ranking B02-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B02_top20.jsonl",
+    "source_sha256": "a341dcf81bd25f9d8bd0b1b4c2d57818e70f93574cf16ea1826e7c980ace19ca"
+  },
+  {
+    "role": "Frozen ranking B02-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B02-GQ.jsonl.gz",
+    "source_sha256": "27eb9278cfcd014703d2f63fbd8792a84429991678c760b631f13eb6ea7ab13d"
+  },
+  {
+    "role": "Frozen ranking B02-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B02-GS.jsonl.gz",
+    "source_sha256": "30605489e2e3e64db390fd1dd045c458d572f4f01c0a39a2fe2f92bca12d39ee"
+  },
+  {
+    "role": "Frozen ranking B03-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B03_top20.jsonl",
+    "source_sha256": "65fa454a5bcffbb0e72faaf0f9c7a2454764c49e45f435a9731b805174a2a112"
+  },
+  {
+    "role": "Frozen ranking B03-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B03-GQ.jsonl.gz",
+    "source_sha256": "a9b871f34bb74ea502e2345a3030f28be17477909c49a25f307b2fda152d9d9b"
+  },
+  {
+    "role": "Frozen ranking B03-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B03-GS.jsonl.gz",
+    "source_sha256": "3a409d90380d2b3798f2bf87a7fe1daa962090290bada31c7b3842a7ba94eb64"
+  },
+  {
+    "role": "Frozen ranking B04-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B04_top20.jsonl",
+    "source_sha256": "fc0f2718ea92c098d3795ddb976ca6b0f40978c59ad084d70df67ff871e7205a"
+  },
+  {
+    "role": "Frozen ranking B04-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B04-GQ.jsonl.gz",
+    "source_sha256": "b0e41ab179d5a1a1930974b02428edff448ac0619cec7cd4e39f988baac13644"
+  },
+  {
+    "role": "Frozen ranking B04-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B04-GS.jsonl.gz",
+    "source_sha256": "d9e3069ab670826bb850ec525366418c24060151bff8918ad76069257176d958"
+  },
+  {
+    "role": "Frozen ranking B05-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B05_top20.jsonl",
+    "source_sha256": "9eedc1e71a8d57474756c95ab16ebba9458fef427b363f15df64089efee74ae8"
+  },
+  {
+    "role": "Frozen ranking B05-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B05-GQ.jsonl.gz",
+    "source_sha256": "5a0eeb5b1341be633162a879c2381ff2862a162b5c474eafb008133158ac499e"
+  },
+  {
+    "role": "Frozen ranking B05-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B05-GS.jsonl.gz",
+    "source_sha256": "add3ebf197bec1d1aacf8e75ae238c277c3ebeb6d0f4fac04ecb95472badd886"
+  },
+  {
+    "role": "Frozen ranking B06-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B06_top20.jsonl",
+    "source_sha256": "6a34b991b3605f2bce798b5849dc20b1253ee37e7e5392e78fb50a5fc8637cd1"
+  },
+  {
+    "role": "Frozen ranking B06-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B06-GQ.jsonl.gz",
+    "source_sha256": "1029f58a3905c919cbf802be977b41bb94aef07a6775f0d602f27589b0f96e88"
+  },
+  {
+    "role": "Frozen ranking B06-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B06-GS.jsonl.gz",
+    "source_sha256": "b9e72f3cf06659167f71095485f7c4d63753a3421df35511fb64f416534ca998"
+  },
+  {
+    "role": "Frozen ranking B07-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B07_top20.jsonl",
+    "source_sha256": "973cf6ee71d14abd6df4e569094487cee362791b2ea4d0584cc1cf734e8312f0"
+  },
+  {
+    "role": "Frozen ranking B07-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B07-GQ.jsonl.gz",
+    "source_sha256": "9c7e975adeca0ee03b5b028dfc1cefcee4623dc25e86e64754bf40ab55f6013f"
+  },
+  {
+    "role": "Frozen ranking B07-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B07-GS.jsonl.gz",
+    "source_sha256": "f4eedd7f2ee8de07a039c56d13e346d7452b465dba5391153bdeeb9218b088a6"
+  },
+  {
+    "role": "Frozen ranking B08-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B08_top20.jsonl",
+    "source_sha256": "b8eba4259f759e3336a7250803e49818568df9b295faf9eb1f933e66c51fa4c0"
+  },
+  {
+    "role": "Frozen ranking B08-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B08-GQ.jsonl.gz",
+    "source_sha256": "c3d1c755a78ab3297f627c4727fbacf8cb57734d2c2c761a9ceaa695b932f920"
+  },
+  {
+    "role": "Frozen ranking B08-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B08-GS.jsonl.gz",
+    "source_sha256": "6196458afd5da753c3974891fac613527b0feeba2fdf93a35c020ec61377fbf6"
+  },
+  {
+    "role": "Frozen ranking B09-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B09_top20.jsonl",
+    "source_sha256": "afcb5b91b1571daae16db0821f4c6640f9beb975dc4e0a60c6902604b69da195"
+  },
+  {
+    "role": "Frozen ranking B09-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B09-GQ.jsonl.gz",
+    "source_sha256": "983d1d8f5dbf0976f56732c689a74d5fd908a264fbcc16f78f2422914021e5bb"
+  },
+  {
+    "role": "Frozen ranking B09-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B09-GS.jsonl.gz",
+    "source_sha256": "44cea2c39c527aa63c456151f722e0b3a156f917db4a12a02e8d29f7c155e705"
+  },
+  {
+    "role": "Frozen ranking B10-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B10_top20.jsonl",
+    "source_sha256": "025b8e69e3befcafe6106dfb47a9f85fe98e6ee243e67f0c42c91899e4ba6a79"
+  },
+  {
+    "role": "Frozen ranking B10-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B10-GQ.jsonl.gz",
+    "source_sha256": "a26cbd0ec7f7ab07242b747c5f45887cda6be2148001c7b17e4d6d8b42fa9c4c"
+  },
+  {
+    "role": "Frozen ranking B10-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B10-GS.jsonl.gz",
+    "source_sha256": "62a876e3bba9c73fcca40e58473a6fcdbcc97e56e9297c94f226b17b2e23ae7d"
+  },
+  {
+    "role": "Frozen ranking B11-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B11_top20.jsonl",
+    "source_sha256": "c47679b7b8aba0c8cc44e2d0618c71c3fd2440db7197fa9827863eab2e8475af"
+  },
+  {
+    "role": "Frozen ranking B11-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B11-GQ.jsonl.gz",
+    "source_sha256": "ca0eb64c7604db8612ca156525e6e9e7bcda04445e53d0de1a3eebff5cc9f4e1"
+  },
+  {
+    "role": "Frozen ranking B11-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B11-GS.jsonl.gz",
+    "source_sha256": "af7d564e8692553cfc7b2b09ddcbcfe3a577eeb49503de8690df22e173e13bf1"
+  },
+  {
+    "role": "Frozen ranking B12-G0",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/retrieval/top20_v1/B12_top20.jsonl",
+    "source_sha256": "e1710e932ba7ef4d815e66b1736ae71d0c563522791ff5e45ae0ff82979d61c4"
+  },
+  {
+    "role": "Frozen ranking B12-GQ",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B12-GQ.jsonl.gz",
+    "source_sha256": "2cdbf71abb99ff0e35573e8ac633ade7d37a67b37cfc538c242cd15b06044f29"
+  },
+  {
+    "role": "Frozen ranking B12-GS",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/B12-GS.jsonl.gz",
+    "source_sha256": "796a77c7f65175836939dcdbf2998e1c4201f57dff889f08d9dffa4aeaea89a2"
+  },
+  {
+    "role": "Frozen ranking bridge-I1-discovery-Qwen-qwen3-rerank",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I1-discovery-Qwen-qwen3-rerank.jsonl.gz",
+    "source_sha256": "0e59c84f97267d6c2f73559f15c8c34cca5e722de4012e38881775fee92dc7c8"
+  },
+  {
+    "role": "Frozen ranking bridge-I1-discovery-SkillRouter-Reranker-0.6B",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I1-discovery-SkillRouter-Reranker-0.6B.jsonl.gz",
+    "source_sha256": "97a3b73d0c51e9c766fc2f0c9555eb3f115dae5e622077716bb580f04f094583"
+  },
+  {
+    "role": "Frozen ranking bridge-I3-flat-Qwen-qwen3-rerank",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I3-flat-Qwen-qwen3-rerank.jsonl.gz",
+    "source_sha256": "4c3a6caf6b20b7fac8b10f3d728d359cd5d0e1676bbe6b98f22ea01c454eecaa"
+  },
+  {
+    "role": "Frozen ranking bridge-I3-flat-SkillRouter-Reranker-0.6B",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I3-flat-SkillRouter-Reranker-0.6B.jsonl.gz",
+    "source_sha256": "4c43ee7a4d573c3e0c130204ccd3da5b95f1f555602e45bf29206d5e76ef380b"
+  },
+  {
+    "role": "Frozen ranking bridge-I3C-fielded-Qwen-qwen3-rerank",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I3C-fielded-Qwen-qwen3-rerank.jsonl.gz",
+    "source_sha256": "19c7554fb105e9f9a6d7517f7a8ed82bbdf06c9ca7a516a08b2b922a34681cd1"
+  },
+  {
+    "role": "Frozen ranking bridge-I3C-fielded-SkillRouter-Reranker-0.6B",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/reranking/matrix_assembly_v1/e1cd335be852d5318db4489e03ac8564545f4cada6c24d9f7113c649dcd063b3/bridge-I3C-fielded-SkillRouter-Reranker-0.6B.jsonl.gz",
+    "source_sha256": "7f85632585d185e4236c544f0977a82f110049cc9d3cd892ee8eef2be63cfdd0"
+  },
+  {
+    "role": "Source of selected aggregate cost comparisons",
+    "source_path": "thesis_notes/current/RQ2/cost_analysis_2026_09_12_v1/cost_report.json",
+    "source_sha256": "ca182abaa6b762c157adcd0d3efe76732405c559505f70183a0fbe035d4a6495"
+  },
+  {
+    "role": "Validated vector identities and cache hashes",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/embeddings/all_representations_v2/final_validation/vector_receipts.jsonl",
+    "source_sha256": "59423766aa316750228947dbbb1e8e82eb51566891fad254d30d1d7494cc1ba3"
+  },
+  {
+    "role": "Vector-to-document/query mapping",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/embeddings/all_representations_v2/qwen_documents.jsonl",
+    "source_sha256": "3e38bb1654c5c6cf5e3fee50400e4fe30b0fe3399ae9c2d88801ae4d916a0546"
+  },
+  {
+    "role": "Vector-to-document/query mapping",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/embeddings/all_representations_v1/skillrouter_documents.jsonl",
+    "source_sha256": "1c6a5e33c8f1d617bb7883df1e53dbfe2aeab0ac74d6b99e321ccb36bab70ccd"
+  },
+  {
+    "role": "Vector-to-document/query mapping",
+    "source_path": "skill_benchmark/rq2_scale10k/2026-09-13_v1/embeddings/all_representations_v1/query_map.jsonl",
+    "source_sha256": "70d6c1cab4a77ba6795747916491279fae0696a4d9d6ba79268beb72c860edb3"
+  }
+]

@@ -1,0 +1,2 @@
+# Only optional embedding inspection/replay requires NumPy.
+numpy>=1.26,<3

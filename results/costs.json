@@ -1,0 +1,603 @@
+{
+  "paired_discovery_vs_summary": [
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B01-GQ",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.7282913165266106,
+        "input_token_proxy": 2444841,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 3475586,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": 0.4867767507002801,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 1566.7903788951264,
+          "n": 714,
+          "p50": 1460.262083215639,
+          "p95": 2362.2541249962524,
+          "total": 1118688.3305311203
+        }
+      },
+      "hit_delta_pp": 14.145658263305327,
+      "rerank_cost_ratio": 7.120510900895561,
+      "summary": {
+        "condition": "B07-GQ",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8697478991596639,
+        "input_token_proxy": 23527453,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 24747948,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 3.466099159663866,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 2544.902394542664,
+          "n": 714,
+          "p50": 2373.5063124913722,
+          "p95": 3721.093422430569,
+          "total": 1817060.3097034618
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B01-GS",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": 0.10379118917035998,
+        "hit_at_1": 0.7338935574229691,
+        "input_token_proxy": 3788861,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 373.64828101329596,
+          "n": 714,
+          "p50": 365.99473400022475,
+          "p95": 420.99715342486377,
+          "total": 266784.8726434933
+        }
+      },
+      "hit_delta_pp": 11.904761904761907,
+      "rerank_cost_ratio": null,
+      "summary": {
+        "condition": "B07-GS",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": 0.49316111938454577,
+        "hit_at_1": 0.8529411764705882,
+        "input_token_proxy": 26247201,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1775.3800297843645,
+          "n": 714,
+          "p50": 1672.228033749434,
+          "p95": 2750.0959600501687,
+          "total": 1267621.3412660363
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B02-GQ",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.7492997198879552,
+        "input_token_proxy": 1918835,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 2949745,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": 0.4131295518207283,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 1469.920737449737,
+          "n": 714,
+          "p50": 1360.2826877031475,
+          "p95": 2346.8370525632054,
+          "total": 1049523.4065391123
+        }
+      },
+      "hit_delta_pp": 7.563025210084029,
+      "rerank_cost_ratio": 5.3962728981657735,
+      "summary": {
+        "condition": "B08-GQ",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8249299719887955,
+        "input_token_proxy": 14786153,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 15917629,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 2.2293598039215685,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 2097.726347823614,
+          "n": 714,
+          "p50": 2058.7171665392816,
+          "p95": 3066.7948956834152,
+          "total": 1497776.6123460606
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B02-GS",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.10147499252392746,
+        "hit_at_1": 0.7198879551820728,
+        "input_token_proxy": 3262855,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 365.3099730861388,
+          "n": 714,
+          "p50": 357.74826025006234,
+          "p95": 415.5896588001582,
+          "total": 260831.32078350312
+        }
+      },
+      "hit_delta_pp": 9.103641456582634,
+      "rerank_cost_ratio": null,
+      "summary": {
+        "condition": "B08-GS",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.3242200418755922,
+        "hit_at_1": 0.8109243697478992,
+        "input_token_proxy": 16752734,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1167.1921507521322,
+          "n": 714,
+          "p50": 1087.085640250507,
+          "p95": 2112.792605748337,
+          "total": 833375.1956370225
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B03-GQ",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.7829131652661064,
+        "input_token_proxy": 1659521,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 2690714,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": 0.3768507002801121,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 1139.434691933988,
+          "n": 714,
+          "p50": 1076.3344578444958,
+          "p95": 1398.6035002861174,
+          "total": 813556.3700408675
+        }
+      },
+      "hit_delta_pp": 8.123249299719893,
+      "rerank_cost_ratio": 5.11961286112162,
+      "summary": {
+        "condition": "B09-GQ",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8641456582633054,
+        "input_token_proxy": 12620193,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": 13775414,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 1.9293296918767509,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 1914.8715126050338,
+          "n": 714,
+          "p50": 1819.5357294753194,
+          "p95": 2845.8138997200876,
+          "total": 1367218.2599999942
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "discovery": {
+        "condition": "B03-GS",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.10022154135290537,
+        "hit_at_1": 0.7633053221288515,
+        "input_token_proxy": 3003541,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Discovery metadata",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 360.7975488704593,
+          "n": 714,
+          "p50": 351.97108250002884,
+          "p95": 409.16621012510745,
+          "total": 257609.44989350793
+        }
+      },
+      "hit_delta_pp": 9.663865546218497,
+      "rerank_cost_ratio": null,
+      "summary": {
+        "condition": "B09-GS",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.28468086266651843,
+        "hit_at_1": 0.8599439775910365,
+        "input_token_proxy": 14510537,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1024.8511055994663,
+          "n": 714,
+          "p50": 925.9341857507479,
+          "p95": 2211.3870996750848,
+          "total": 731743.6893980189
+        }
+      }
+    }
+  ],
+  "paired_original_vs_summary": [
+    {
+      "common_prompt_sha256": "b2e429753f237f5a1159665c230c501ade40bb66b1e6f1d000833603060dc059",
+      "hit_delta_pp": -1.422475106685639,
+      "original": {
+        "condition": "B04-GQ",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8847795163584637,
+        "input_token_proxy": 42706856,
+        "measured_invoice_usd": null,
+        "n": 703,
+        "provider_input_tokens": 44296518,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": 6.301069416785206,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 4104.715050903585,
+          "n": 703,
+          "p50": 3777.8740827925503,
+          "p95": 6728.363854531198,
+          "total": 2885614.68078522
+        }
+      },
+      "provider_token_reduction": 0.4557634078597329,
+      "proxy_token_reduction": 0.46317546765793294,
+      "stage_median_reduction": 0.37352108436803333,
+      "summary": {
+        "condition": "B07-GQ",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8705547652916074,
+        "input_token_proxy": 22926088,
+        "measured_invoice_usd": null,
+        "n": 703,
+        "provider_input_tokens": 24107786,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 3.429272546230442,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 2529.0817157974784,
+          "n": 703,
+          "p50": 2366.7584587819874,
+          "p95": 3521.019554231316,
+          "total": 1777944.4462056272
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "hit_delta_pp": -0.5602240896358524,
+      "original": {
+        "condition": "B04-GS",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": 0.8958414689098919,
+        "hit_at_1": 0.8585434173669467,
+        "input_token_proxy": 48708593,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 3225.029288075611,
+          "n": 714,
+          "p50": 3077.4555895004028,
+          "p95": 5031.241209223885,
+          "total": 2302670.9116859864
+        }
+      },
+      "provider_token_reduction": null,
+      "proxy_token_reduction": 0.4611381815114224,
+      "stage_median_reduction": 0.45661992996594136,
+      "summary": {
+        "condition": "B07-GS",
+        "first_stage": "BM25",
+        "gpu_stage_service_time_value_usd_per_1000": 0.49316111938454577,
+        "hit_at_1": 0.8529411764705882,
+        "input_token_proxy": 26247201,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1775.3800297843645,
+          "n": 714,
+          "p50": 1672.228033749434,
+          "p95": 2750.0959600501687,
+          "total": 1267621.3412660363
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "b252ca298e20e7acec5c3080c246ffedb1a76954f6bc657b7a7cd29ae2bcec08",
+      "hit_delta_pp": -2.5423728813559365,
+      "original": {
+        "condition": "B05-GQ",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8502824858757062,
+        "input_token_proxy": 27916481,
+        "measured_invoice_usd": null,
+        "n": 708,
+        "provider_input_tokens": 29285909,
+        "query_embedding_list_price_usd_per_1000": 0.00482930790960452,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": 4.136427824858758,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 3270.6909047677786,
+          "n": 708,
+          "p50": 3002.778750145808,
+          "p95": 6200.452930759638,
+          "total": 2315649.1605755873
+        }
+      },
+      "provider_token_reduction": 0.4672282837456061,
+      "proxy_token_reduction": 0.48087002799529066,
+      "stage_median_reduction": 0.3152095025674648,
+      "summary": {
+        "condition": "B08-GQ",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8248587570621468,
+        "input_token_proxy": 14492282,
+        "measured_invoice_usd": null,
+        "n": 708,
+        "provider_input_tokens": 15602704,
+        "query_embedding_list_price_usd_per_1000": 0.00482930790960452,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 2.2037717514124293,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 2083.4325859395494,
+          "n": 708,
+          "p50": 2056.274353992194,
+          "p95": 2978.6274773068726,
+          "total": 1475070.2708452009
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "hit_delta_pp": -2.2408963585434205,
+      "original": {
+        "condition": "B05-GS",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.5949714696187279,
+        "hit_at_1": 0.8333333333333334,
+        "input_token_proxy": 31882006,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 2141.8972906274207,
+          "n": 714,
+          "p50": 2053.547972499814,
+          "p95": 4192.412227400146,
+          "total": 1529314.6655079783
+        }
+      },
+      "provider_token_reduction": null,
+      "proxy_token_reduction": 0.4745395255242095,
+      "stage_median_reduction": 0.4706305112866773,
+      "summary": {
+        "condition": "B08-GS",
+        "first_stage": "Qwen embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.3242200418755922,
+        "hit_at_1": 0.8109243697478992,
+        "input_token_proxy": 16752734,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "query_embedding_list_price_usd_per_1000": 0.004841078431372549,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1167.1921507521322,
+          "n": 714,
+          "p50": 1087.085640250507,
+          "p95": 2112.792605748337,
+          "total": 833375.1956370225
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "5f30bd08460969e75aab843df420110c4772dd853fbabc7e701d3a55b5c2b3af",
+      "hit_delta_pp": 0.5673758865248235,
+      "original": {
+        "condition": "B06-GQ",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8595744680851064,
+        "input_token_proxy": 24215065,
+        "measured_invoice_usd": null,
+        "n": 705,
+        "provider_input_tokens": 25549096,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": 3.623985248226951,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 2824.864763417116,
+          "n": 705,
+          "p50": 2615.1877092197537,
+          "p95": 4758.879150263965,
+          "total": 1991529.6582090668
+        }
+      },
+      "provider_token_reduction": 0.47782461657351794,
+      "proxy_token_reduction": 0.4956734991213114,
+      "stage_median_reduction": 0.306717833878124,
+      "summary": {
+        "condition": "B09-GQ",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": null,
+        "hit_at_1": 0.8652482269503546,
+        "input_token_proxy": 12212299,
+        "measured_invoice_usd": null,
+        "n": 705,
+        "provider_input_tokens": 13341109,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": 1.8923558865248227,
+        "reranker": "Qwen",
+        "stage_latency_ms": {
+          "mean": 1894.1225217509989,
+          "n": 705,
+          "p50": 1813.0629998631775,
+          "p95": 2830.7660004124045,
+          "total": 1335356.3778344542
+        }
+      }
+    },
+    {
+      "common_prompt_sha256": "91f96b0a6e27e3b67fcdbcd4e2aaa781c52d6b3302f9f0ebb75898b8b94f6053",
+      "hit_delta_pp": 0.5602240896358635,
+      "original": {
+        "condition": "B06-GS",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.5324104152995721,
+        "hit_at_1": 0.8543417366946778,
+        "input_token_proxy": 28332064,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Original skill document",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1916.67749507846,
+          "n": 714,
+          "p50": 1749.1720672502424,
+          "p95": 3975.156681171997,
+          "total": 1368507.7314860204
+        }
+      },
+      "provider_token_reduction": null,
+      "proxy_token_reduction": 0.4878404552523953,
+      "stage_median_reduction": 0.47064431047864386,
+      "summary": {
+        "condition": "B09-GS",
+        "first_stage": "SkillRouter embedding",
+        "gpu_stage_service_time_value_usd_per_1000": 0.28468086266651843,
+        "hit_at_1": 0.8599439775910365,
+        "input_token_proxy": 14510537,
+        "measured_invoice_usd": null,
+        "n": 714,
+        "provider_input_tokens": null,
+        "representation": "Structured operational summary",
+        "rerank_list_price_usd_per_1000": null,
+        "reranker": "SkillRouter",
+        "stage_latency_ms": {
+          "mean": 1024.8511055994663,
+          "n": 714,
+          "p50": 925.9341857507479,
+          "p95": 2211.3870996750848,
+          "total": 731743.6893980189
+        }
+      }
+    }
+  ],
+  "prices": {
+    "a10g_small_usd_per_hour": {
+      "billed_states": [
+        "STARTING",
+        "RUNNING"
+      ],
+      "billing_unit": "minute",
+      "rate": 1.0,
+      "source": "https://huggingface.co/docs/hub/jobs-pricing"
+    },
+    "accessed_date": "2026-09-12",
+    "confirmation_scope": "September 2026 Singapore Qwen line items in qwen_billing_observation.json; not a universal price guarantee",
+    "credits_and_taxes_included": false,
+    "historical_rate_and_account_currency_confirmed": true,
+    "qwen_embedding_usd_per_million": {
+      "deployment": "International/Singapore",
+      "model": "text-embedding-v4",
+      "rate": 0.07,
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    },
+    "qwen_rerank_usd_per_million": {
+      "deployment": "International/Singapore",
+      "model": "qwen3-rerank",
+      "rate": 0.1,
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    },
+    "status": "QWEN_RATES_CONFIRMED_IN_PROVISIONAL_ACCOUNT_BILL_NOT_FINAL_INVOICE"
+  },
+  "schema_version": "rq2-v7-money-time-v1",
+  "scope": {
+    "experiment": "Full-Library Retrieval (V7)",
+    "frozen_queries": 1077,
+    "matrix_conditions": 42,
+    "outcomes": 45203,
+    "primary_queries": 714,
+    "qwen_selected_requests": 16124
+  }
+}

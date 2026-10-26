@@ -1,0 +1,24 @@
+{
+  "conditions_per_library": 42,
+  "date": "2026-10-26",
+  "excluded": [
+    ".env and credentials",
+    "billing observations and invoices",
+    "raw provider/job envelopes",
+    "private chat/session logs",
+    "model weights",
+    "historical snapshots",
+    "scratch and caches",
+    "third-party full source documents"
+  ],
+  "larger_library": "Frozen rankings, approved labels and per-query scoring replay; no new provider calls.",
+  "library_sizes": [
+    3798,
+    10000
+  ],
+  "primary_queries": 714,
+  "queries": 1077,
+  "smaller_library": "Aggregate matrix inspection only; original exact-analysis prerequisites are incomplete.",
+  "sources": "Third-party full documents are not redistributed in this review release. Source hashes identify them.",
+  "version": "1.0.0"
+}
